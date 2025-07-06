@@ -4,6 +4,131 @@
     <title>new website </title>
 </head>
 <body>
+
+
+  <title>My Webpage</title>
+</head>
+<body>
+
+  <!-- Link at the top -->
+  <a href="#gardening-tips">Go to Gardening Tips</a>
+  <div><a href = "https://www.youtube.com/@CodeWithHarry"  target="_blank">Harry bhai ka</a></div>
+  <img src="" alt="">
+
+  <div>This is <strong>important</strong> text.</div>
+  <div>This is <strong>important</strong> text.</div>
+  <div>This is <strong>important</strong> text.</div>
+
+  <!-- Some content -->
+  <p>Here is some other content...</p>
+
+  <!-- Gardening Tips Section -->
+  <h2 id="gardening-tips">Gardening Tips</h2>
+  <p>This section provides tips on how to garden...</p>
+
+
+
+
+<ol type="a" start="19">
+  <li>Pen</li>
+  <li>Pencil</li>
+  <li>Eraser</li>
+</ol>
+<h1>HTML Definition List</h1>
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language: The standard language for creating web pages.</dd>
+
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document written in HTML.</dd>
+
+  <dt>JavaScript</dt>
+  <dd>A programming language commonly used in web development to add interactive features.</dd>
+</dl>
+<table border="1">
+  <!-- Caption -->
+  <caption>Employee Information</caption>
+
+  <!-- Table Header -->
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+
+  <!-- Table Body -->
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Alice</td>
+      <td>Developer</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Bob</td>
+      <td>Designer</td>
+      <td>$70,000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Carol</td>
+      <td>Manager</td>
+      <td>$90,000</td>
+    </tr>
+  </tbody>
+
+  <!-- Table Footer -->
+  <tfoot>
+    <tr>
+      <td colspan="3">Total Employees</td>
+      <td>3</td>
+    </tr>
+  </tfoot>
+</table>
+<form action="/submit" method="post">
+    <!-- Text input for username -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br><br>
+
+    <!-- Password input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <!-- Radio buttons for gender -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+</form>
+<canvas id="myCanvas" width="200" height="100"></canvas>
+<form action="/submit" method="post">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <br><br>
+  <label for="password">password</label>
+  <input type="password" id="password" name="password" required>
+  <br><br>
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br><br>
+  <input type="submit" value="submit">
+
+</form>
+
     <script>
     // let name = "muhammad jawad ali";
     // let age = 67;
@@ -83,22 +208,78 @@
 
 // check the no is even or the odd
 
-let number = 2000;
-let result = number % 2 === 0 ? " even " : "odd";
-console.log(result);
+// let number = 2000;
+// let result = number % 2 === 0 ? " even " : "odd";
+// console.log(result);
 
-// see the adult age
+// // see the adult age
 
-    let age = 18 ;
-    let status = age >= 18 ? "adult" : "kid";
-    console.log(status);
+//     let age = 18 ;
+//     let status = age >= 18 ? "adult" : "kid";
+//     console.log(status);
 
-// see the weather 
+// // see the weather 
 
-let temprature = 50
-let weather = temprature > 30 ? " Hot " : " Good ";
-console.log(weather);
+// let temprature = 50
+// let weather = temprature > 30 ? " Hot " : " Good ";
+// console.log(weather);
     
-    </script>
+    // let ageAllow = 25;
+    // let legal = ( ageAllow >= 18 && ageAllow <= 55 ) ? "allow" : "not allowed";
+    // console.log(legal);
+    // see  the how can access this website 
+    // let role = " admin";
+    // let access = ( role === "editor" || role === "admin")
+    // ? "permission granted" : "premission Declined"  ;
+    // console.log(access);
+// see the who is failed and underage
+// let marks = 90;
+// let age = 15 ;
+// let result = ( marks > 33 && age > 16 )? "pass" : "fail";
+// console.log(result);
+
+// let name = "yes";
+// let emptyName = !name ? "name is requied" : "name looks good";
+// console.log(emptyName);
+
+// let isAdmin = "false";
+// let access = !isAdmin ?  "no admin acesss " : " welcome admin ";
+// console.log(access);
+
+// let verified = false;
+// let access = !verified ? "Access Denied" : "Access Granted";
+// console.log(access);
+
+
+// let name = "";
+// let result = !name ? "Name is missing" : "Name is provided";
+// console.log(result);
+
+// const temp = true ;
+// let weather = !temp ? "weather is good" : "weather is bad";
+// document.writeln(weather);
+
+// let name = "jawad";
+// let access = !name ? " access denied " : " welcome Jawad ";
+// document.writeln(access);
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log("Line", i);
+// }
+//  for (let i = 1; i <= 100; i++ ){
+//     console.log("row", i );
+//  }
+
+
+
+
+
+
+
+
+
+
+
+</script>
 </body>
 </html>
