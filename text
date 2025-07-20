@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text</title>
+    <link rel="stylesheet" href="new.css" />
+    <script src="new1.js"></script>
+  </head>
+  <body>
+    <P class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima porro,
+      odio, perferendis sint alias aperiam, recusandae reprehenderit
+      necessitatibus blanditiis reiciendis dolor distinctio facilis!</P
+    >
+  </body>
+</html>

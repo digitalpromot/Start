@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css Postion</title>
+    <style>
+        *{margin: 0;
+        padding: 0;}
+      .parent {
+        margin: 34px;
+        padding: 43px;
+        border: red 2px solid;
+      }
+      .box {
+        height: 133px;
+        width: 80vw;
+        padding: 3px;
+        border: 2px solid rgb(0, 0, 0);
+      }
+      .box1 {
+        background-color: rebeccapurple;
+        /* position: sticky; */
+        
+       
+      }
+      .box2 {
+        background-color: rgb(255, 65, 97);
+        /* position: relative;
+        top: 23px; */
+           position: sticky;
+           z-index: 1000;
+      }
+      .box3 {
+        background-color: aquamarine;
+        position: fixed;
+        
+      }
+      .box4 {
+        background-color: yellow;
+        position: relative
+        ;
+        top: 50px;
+        left: 48px;
+      }
+      /* postion = static,  fixed , absloute , sticky , relative  */
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+    </div>
+  </body>
+</html>

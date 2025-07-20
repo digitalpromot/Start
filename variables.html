@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+    <style>
+        :root{
+            --co:rgb(255, 0, 0);
+            --opa:0.5;
+            
+        }
+        .color p{
+            color:var(--co);
+            opacity: var(--opa);
+
+
+        }
+        div p:first-child{
+             --color:rgb(255, 85, 0); /*UNDER THE BLOCK SCOPE VALUES  */
+        }
+    </style>
+</head>
+<body>
+    <div class="color">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas at excepturi corporis animi eius inventore numquam vel quasi saepe quas dolor quisquam, ratione soluta, assumenda minus reprehenderit optio nostrum!</p>
+    </div>
+</body>
+</html>

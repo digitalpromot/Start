@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color full </title>
+    <style>
+       
+    
+        *{margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+  
+    }
+        nav{ background-color:yellow;
+            padding: 10px 20px;
+        
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            text-align: center;
+        }
+        
+        nav ul li{
+color: black;
+cursor: pointer;
+transition: background-color 0.3s;
+
+}
+nav ul li:hover{
+    background-color: orange;
+    border-radius: 3px;
+    border: solid orange;
+    
+}
+ nav ul li.active {
+      background-color: black;
+      color: white;
+      border-radius: 4px;
+      @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav ul li {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid #555;
+      }
+    }
+
+    </style>
+</head>
+<body>
+  <nav>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Blog</li>
+    </ul>
+  </nav>
+</body>
+</html>

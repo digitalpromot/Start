@@ -1,0 +1,22 @@
+p{
+    text-decoration: solid;
+   color: rgb(0, 0, 0);
+   background-color: yellow;
+   border: 2px;
+  font-size: larger;
+  text-align: center;
+ text-transform: uppercase;
+ text-decoration: underline;
+ text-decoration-line:underline;
+ text-decoration-style:solid;
+ text-decoration-thickness: 5px;
+}
+.lorem{
+    text-decoration-color: aqua;
+    border: 2px solid red;
+    width: 100px;
+    text-overflow: ellipsis;
+    overflow: scroll;
+    word-break: break-all;
+
+}

@@ -1,0 +1,23 @@
+h1{
+
+    color: black;
+    background-color: yellow;
+    font-size: larger;
+   font-family: serif;
+   font-size: xx-large;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+  
+
+}
+p{
+    line-height: 40px;
+    font-size: large;
+    font-family: playfair;
+    font: weight 300px;
+    text-align: center;
+    font-weight: 200;
+   color:rgb(3, 26, 90);
+   opacity:20%;
+}
