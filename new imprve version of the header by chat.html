@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Improved Header</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #ccc;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .nav-left,
+    .nav-center,
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-center ul {
+      display: flex;
+      list-style: none;
+      gap: 24px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-center li {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .nav-center a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .nav-right {
+      gap: 16px;
+    }
+
+    .nav-button {
+      background-color: white;
+      border: 2px solid black;
+      padding: 10px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .nav-button:hover {
+      background-color: #f0f0f0;
+    }
+
+    .language-selector,
+    .search-icon {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .language-selector img,
+    .search-icon img {
+      width: 24px;
+      height: 24px;
+      margin-right: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .nav-center ul {
+        display: none;
+      }
+      .nav-button {
+        padding: 8px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- Left: Logo -->
+      <div class="nav-left">
+        <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Background-2.png"
+          alt="Website Logo" width="160" />
+      </div>
+
+      <!-- Center: Menu -->
+      <div class="nav-center">
+        <ul>
+          <li><a href="#">Home <span>⌄</span></a></li>
+          <li><a href="#">About <span>⌄</span></a></li>
+          <li><a href="#">Contact <span>⌄</span></a></li>
+          <li><a href="#">Blog <span>⌄</span></a></li>
+          <li><a href="#">Products <span>⌄</span></a></li>
+        </ul>
+      </div>
+
+      <!-- Right: Button, Language, Search -->
+      <div class="nav-right">
+        <button class="nav-button">Buy Now</button>
+
+        <div class="language-selector">
+          <img src="https://openmoji.org/data/black/svg/1F310.svg" alt="Language Icon" />
+          <span>English</span>
+        </div>
+
+        <div class="search-icon">
+          <img src="https://img.icons8.com/?size=100&id=132&format=png" alt="Search Icon" />
+        </div>
+      </div>
+    </nav>
+  </header>
+</body>
+</html>

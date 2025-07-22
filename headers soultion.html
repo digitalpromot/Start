@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Header of the soultion</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px rgb(163, 163, 163) solid;
+        }
+
+        ul {
+            display: flex;
+            text-decoration: none;
+            justify-content: center;
+        }
+
+        .menus {
+            padding: 10px;
+
+            list-style: none;
+            cursor: pointer;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .downi {
+            padding: 5px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            vertical-align: center;
+            width: 100%;
+        }
+
+        .nav-button {
+            background-color: white;
+            border: solid black 2px;
+            padding: 12px 18px;
+            border-radius: 5px;
+            justify-content: flex-end;
+            gap: 20px;
+          
+
+        }
+
+        .languages {
+            display: inline-flex;
+            justify-content: center;
+        }
+
+        .language li {
+            list-style: none;
+            align-items: center;
+            display: flex;
+            gap: 2px;
+            padding-left: 20px;
+
+        }
+
+        .language {
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .last {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+        .search-icon{
+          padding-right: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="img">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Background-2.png" alt="image-for-web"
+                    width="200px" />
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="menus">
+                        <a href="/">Home</a><span class="downi">⌄</span>
+                    </li>
+                    <li class="menus">
+                        <a href="/">About</a><span class="downi">⌄</span>
+                    </li>
+                    <li class="menus">
+                        <a href="/">Contact</a><span class="downi">⌄</span>
+                    </li>
+                    <li class="menus">
+                        <a href="/">Blog</a><span class="downi">⌄</span>
+                    </li>
+                    <li class="menus">
+                        <a href="/">products</a><span class="downi">⌄</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="last">
+                <button class="nav-button">Buy Now</button>
+
+                <div languages>
+                    <span class="language">
+                        <li>
+                            <img src="https://openmoji.org/data/black/svg/1F310.svg" alt="glob-icon"
+                                width="20px" />English
+                        </li>
+                    </span>
+                </div>
+
+                <ul class="search-icon">
+                    <img src="https://img.icons8.com/?size=100&id=132&format=png " alt="imag-for-icon" width="30px" />
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+</body>
+
+</html>
